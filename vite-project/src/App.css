@@ -1,0 +1,226 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;*{
+    box-sizing: border-box;
+    }
+    
+    body{
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .logo{
+      width: 51.306px;
+      height: 26.218px;
+      flex-shrink: 0;
+      filter: drop-shadow(0 0 2em #646cffaa);
+    }
+    
+    .head{
+     display: flex;
+     align-items: center;
+     height: 65px;
+     color: aliceblue;
+     padding: 10px;
+     background: linear-gradient(90deg, #db61d3 0%, #80acd1 100%);
+    }
+    
+    .title{
+    margin-right: auto;
+    font-size: 25px;
+    }
+     
+    .course{
+      font-size: 15px;
+    }
+    
+    .forms{
+      display: grid;
+      grid-template: 50px 50px / 1fr 1fr;
+      gap: 10px;
+      
+    }
+    
+    .button{
+      grid-column: 1 / -1;
+      border-radius: 10px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background: linear-gradient(90deg, #db61d3 0%, #80acd1 100%);
+      color:azure;
+      font-size: medium;
+      cursor: pointer;
+    }
+    
+    .click-me{
+      border-radius: 10px;
+    }
+    
+    .meme-image {
+      max-width: 100% ;
+      margin-left: 1%;
+    }
+    
+    .meme-text{
+      position: absolute;
+      width: 80%;
+      text-align: center;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 15px 0;
+      padding: 0 5px;
+      font-family: impact, sans-serif;
+      font-size: 2em;
+      text-transform: uppercase;
+      color: white;
+      letter-spacing: 1px;
+      text-shadow:
+          2px 2px 0 #000,
+          -2px -2px 0 #000,
+          2px -2px 0 #000,
+          -2px 2px 0 #000,
+          0 2px 0 #000,
+          2px 0 0 #000,
+          0 -2px 0 #000,
+          -2px 0 0 #000,
+          2px 2px 5px #000;
+    
+    }
+    
+    .botton{
+    bottom: 0;
+    }
+    
+    .top{
+      top: 200px;
+    }
+    
+    /* Card */
+    /* body {
+      background-color: whitesmoke;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    main{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card{
+        width: 200px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        height: 380px;
+        box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+        -webkit-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+        -moz-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+    }
+    
+    .user-image{
+        width: 100%;
+        padding: 10%;
+        padding-bottom: 0;
+    }
+    
+    .card-name{
+      margin-block: 13px;
+      color: #333333;
+    }
+    
+    .card-info{
+      padding: 10px;
+    }
+    
+    .empty-star{
+      width: 25px;
+      cursor: pointer;
+    }
+    
+    .card-contact{
+      font-size: 0.75rem;
+        color: gray;
+        margin-block: 7px;
+    } */
+    
+    
+    
+    /* Boxes
+    * {
+      box-sizing: border-box;
+    }
+     
+    .boxed{
+        height: 100px;
+        width: 100px;
+        border: 5px solid black;
+        display: inline-block;
+        margin-right: 2px;
+    } */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
